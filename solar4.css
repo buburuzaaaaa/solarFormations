@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: firebrick;
+}
+
+body {
+   background-color: aqua;
+}
+
+button {
+    border-radius: 5px;
+    font-size: xx-large;
+    background-color: firebrick;
+}
+
+.star {
+    grid-area: star;
+}
+
+.frm {
+    grid-area: frm;
+}
+
+.comp {
+    grid-area: comp;
+}
+
+.how {
+    grid-area: how;
+}
+
+.container {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(10, auto);
+    grid-template-areas:
+        "how star comp frm";
+    justify-items: center;
+
+}
+
+p {
+    border: 5px;
+    color: indigo;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10rem;
+
+}
